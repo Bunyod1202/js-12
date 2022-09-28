@@ -1,0 +1,32 @@
+
+.text-center {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 1.5em Georgia, serif;
+}
+body {
+  background-color: #cfe2ff;
+}
+.boxss {
+  box-shadow: rgba(75, 46, 240, 0) -5px 5px, rgba(75, 46, 240, 0) -10px 10px, rgba(75, 46, 240, 0) -15px 15px, rgba(75, 46, 240, 0) -20px 20px, rgba(75, 46, 240, 0) -25px 25px,rgb(29, 51, 215) 3px 3px 6px 0px inset, rgba(42, 9, 225, 0.664) -3px -3px 6px 1px inset;
+  transition: all 0.5s linear;
+}
+.boxss:hover {
+    box-shadow: rgba(75, 46, 240, 0.4) -5px 5px, rgba(75, 46, 240, 0.3) -10px 10px, rgba(75, 46, 240, 0.2) -15px 15px, rgba(75, 46, 240, 0.1) -20px 20px, rgba(75, 46, 240, 0.05) -25px 25px,rgb(29, 51, 215) 3px 3px 6px 0px inset, rgba(42, 9, 225, 0.664) -3px -3px 6px 1px inset;
+}
+
+.boxss:hover .box {
+  box-shadow: rgba(75, 46, 240, 0.4) -5px 5px, rgba(75, 46, 240, 0.3) -10px 10px, rgba(75, 46, 240, 0.2) -15px 15px, rgba(75, 46, 240, 0.1) -20px 20px, rgba(75, 46, 240, 0.05) -25px 25px,rgb(29, 51, 215) 3px 3px 6px 0px inset, rgba(42, 9, 225, 0.664) -3px -3px 6px 1px inset;
+}
+
+.box {
+  box-shadow: rgba(75, 46, 240, 0) -5px 5px, rgba(75, 46, 240, 0) -10px 10px, rgba(75, 46, 240, 0) -15px 15px, rgba(75, 46, 240, 0) -20px 20px, rgba(75, 46, 240, 0) -25px 25px,rgb(29, 51, 215) 3px 3px 6px 0px inset, rgba(42, 9, 225, 0.664) -3px -3px 6px 1px inset;
+  transition: all 0.5s linear;
+}
+.boxss:hover .asci {
+  box-shadow: rgba(75, 46, 240, 0.4) -5px 5px, rgba(75, 46, 240, 0.3) -10px 10px, rgba(75, 46, 240, 0.2) -15px 15px, rgba(75, 46, 240, 0.1) -20px 20px, rgba(75, 46, 240, 0.05) -25px 25px,rgb(29, 51, 215) 3px 3px 6px 0px inset, rgba(42, 9, 225, 0.664) -3px -3px 6px 1px inset;
+}
+.asci {
+  box-shadow: rgba(75, 46, 240, 0) -5px 5px, rgba(75, 46, 240, 0) -10px 10px, rgba(75, 46, 240, 0) -15px 15px, rgba(75, 46, 240, 0) -20px 20px, rgba(75, 46, 240, 0) -25px 25px,rgb(29, 51, 215) 3px 3px 6px 0px inset, rgba(42, 9, 225, 0.664) -3px -3px 6px 1px inset;
+  transition: all 0.5s linear;
+}
