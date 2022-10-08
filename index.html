@@ -15,17 +15,63 @@
   <main>
     <section class="hiro">
       <div class="container ">
-        <form class="form w-100" method="post" autocomplete="off">
-          <div class="input-group mt-5 w-50 mx-auto">
-            <input type="text" name="text" class="text w-100 border border-start-0 px-5 py-3 border-end-0 border-3  border-dark rounded-pill" >
-          <button class="btn btn-success border border-start-0 border-end-0 border-3  border-dark rounded-pill mx-auto mt-3" type="submit">add</button>
+       <div class="row">
+        <div class="col-lg-6">
+          <div class="w-100 d-flex justify-content-between mt-3">
+           <div class="clist clist-all"><strong>Countall: </strong> <span class="all"></span></div>
+           <div class="clist clist-false"><strong>Cauntoncheck: </strong> <span class="false"></span></div>
+           <div class="clist clist-true"><strong>Cauntcheck: </strong> <span class="true"></span></div>
+        
           </div>
-        </form>
-        <ol class="list p-0 w-100">
-
-        </ol>
+          <div class="">
+            <img class="imgis"  src="./images/to-do-list1.png" alt="">
+            <form class="form" method="post" autocomplete="off">
+              <label class="form" for="input">
+                <div class="input-groups ">
+                  <input type="text" id="input" name="text" placeholder="To do list" class="input text" >
+                <button class="btn btn-add ">add</button>
+                </div>
+              </label>
+            </form>
+            <ol class="list p-0 w-100 list-unstyled">
+    
+            </ol>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form class="forms" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+            <div class="input-group inputs">
+              <input class="search-input" type="text">
+              <button class="sarch-btn " type="submit">search</button>
+            </div>
+          </form>
+          <ul class="delitelist"></ul>
+        </div>
+       </div>
       </div>
     </section>
+    <template class="template-list">
+      <li class="itms">
+       <div class="box">
+        <span class="nmber me-3"></span>
+        <h3 class="title"></h3>
+        <div class="input-group igroup d-none">
+        <input class="edit-input" type="text">
+        <button type="button" class="btn add btn-secondary ">add</button>
+       </div>
+
+       </div>
+        <div class="box">
+          <button type="button" class="btn btnedit btna me-3"></button>
+   
+        <label >
+            <input type="checkbox" class="chceck">
+            <span class="boxcheck"></span>
+          </label>
+          <button class="btn btns ms-3 delited" type="button " >delite</button>
+        </div>
+      </li>
+    </template>
   </main>
   <script src="./js/pokemons.js"></script>
   <script src="./js/main.js"></script>
